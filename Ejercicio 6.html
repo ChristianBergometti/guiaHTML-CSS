@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+
+<body>
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+
+    </form>
+
+    <h1>Registrar un usuario</h1>
+
+    <label for="nombre">Nombre de usuario</label>
+    <br>
+    <input type="text" id="nombre" name="nombre_usuario" placeholder="Juan Carlos Pérez">
+    <br>
+    <label for="contraseña">Contraseña de usuario</label>
+    <br>
+    <input type="password" id="contraseña" name="clave_usuario" maxlength="15" placeholder="Máximo de 15 caracteres">
+    <br>
+    <label for="edad">Edad del usuario</label>
+    <br>
+    <input type="number" id="edad" name="edad_usuario" placeholder="29">
+    <br>
+    <label for="nacimiento">Fecha de nacimiento del usuario</label>
+    <br>
+    <input type="date" id="nacimiento" name="fecha_nacimiento_usuario">
+    <br>
+    <label>Sexo del usuario</label>
+    <br>
+
+    <input type="radio" name="sexo_usuario" id="hombre" value="1">
+    <label for="hombre">Hombre</label>
+    <br>
+    <input type="radio" name="sexo_usuario" id="mujer" value="2">
+    <label for="mujer">Mujer</label>
+    <br>
+    <input type="radio" name="sexo_usuario" id="otro" value="3">
+    <label for="otro"> Otro</label>
+    <br>
+
+    <label for="pais">País de nacimiento del usuario</label>
+    <br>
+    <select name="pais_nacimiento_usuario" id="pais">
+        <option>Argentina</option>
+        <option>Chile</option>
+        <option>Perú</option>
+        <option>Bolivia</option>
+        <option>Paraguay</option>
+        <option>Venezuela</option>
+    </select>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Borrar</button>
+</body>
+
+</html>
