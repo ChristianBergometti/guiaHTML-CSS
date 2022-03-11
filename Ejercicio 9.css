@@ -1,5 +1,13 @@
-.deportes #ul1 ::before {
-    color: blueviolet;
-    display: inline-block;
-    content: "@";
+.deportes ul {
+    list-style-type: "@ ";
+    color: blue;
+
+}
+
+.deportes ul  :hover {
+    color: brown;
+}
+
+.deportes h2 {
+    color: black;
 }
